@@ -10,7 +10,7 @@ def ttm(text):
 
     for x in text:
         morse_str += codes[ord(x) - 97] + ' '
-        #ord is function to get ASCII code of a string
+        # ord is function to get ASCII code of a string
     print('morse code for entered text is ', morse_str)
 
 def mtt(mcode):
@@ -27,6 +27,8 @@ def mtt(mcode):
     print('Decoded text:', text)
 
 # can call any function according to the requirement
+
+
 # for example
 ttm('PavAN')
 #output is ('.__.', '._', '..._', '._', '_.')
